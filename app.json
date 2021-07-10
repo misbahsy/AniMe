@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "voila",
-    "slug": "voila",
-    "version": "1.0.0",
+    "name": "AniMe",
+    "slug": "Privacy-Focused-Ai-Artist",
+    "version": "1.0.9",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#b3e8df"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +17,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6824988815714853~9950854821"
+      },
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to let user take a picture.",
+        "NSUserTrackingUsageDescription": "This app will show you personalized ads "
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6824988815714853~5146084850"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#ffffff",
+      "translucent": true
     }
   }
 }
