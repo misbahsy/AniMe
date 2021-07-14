@@ -24,7 +24,8 @@
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to let user take a picture.",
         "NSUserTrackingUsageDescription": "This app will show you personalized ads "
-      }
+      },
+      "bundleIdentifier": "com.anime"
     },
     "android": {
       "adaptiveIcon": {
@@ -33,7 +34,8 @@
       },
       "config": {
         "googleMobileAdsAppId": "ca-app-pub-6824988815714853~5146084850"
-      }
+      },
+      "package": "com.anime"
     },
     "web": {
       "favicon": "./assets/favicon.png"
